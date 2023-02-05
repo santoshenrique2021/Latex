@@ -1,0 +1,67 @@
+%%% TEMPLATE BÁSICO DE ARTIGO - FRANCISCO CRIBARI %%%
+\documentclass[12pt, oneside, onecolumn, reqno, notitlepage, centertags]{amsart}
+\usepackage[tmargin=30mm,bmargin=25mm,lmargin=20mm,rmargin=20mm]{geometry}
+\usepackage[utf8]{inputenc} % codificação UTF8 
+\usepackage[round]{natbib} % para referências 
+\usepackage[american]{babel} % língua inglesa americana  
+\usepackage{rotating,graphicx,url,color} 
+\usepackage{amssymb} % símbolos matemáticos (AMS)
+\usepackage{amsthm} % ambientes para teoremas (AMS)
+\usepackage{amsmath} % pacote mais geral, com símbolos, operadores, tipos de texto (AMS)
+\usepackage{dsfont} % fonte para valor esperado, números reais, etc. 
+\usepackage{comment} % para comentar blocos de texto 
+\usepackage{epstopdf} % converte gráficos EPS para PDF 
+
+%\setlength\rotFPtop{0pt plus 1fil} % fix for sidewaystable with amsart
+
+\newcommand{\e}{\mathds{E}} % operador esperança
+\newcommand{\re}{\mathds{R}} % conjunto dos reais
+\newcommand{\na}{\mathds{N}} % conjunto dos naturais
+\newcommand{\var}{\mathrm{var}} % operador variância
+\newcommand{\sinal}{\mathrm{sign}} % operador sinal
+\newcommand{\argmax}{\arg\max} % argumento máximo
+\newcommand{\iid}{\overset{\text{iid}}{\sim}} % iid
+\newcommand{\bs}[1]{\boldsymbol{#1}} % negrito no modo matemático
+
+%% fonte
+\usepackage{lmodern} 
+
+\allowdisplaybreaks[4]
+
+\begin{document}
+
+\title[TITULO CURTO]{TITULO LONGO}
+
+\author[P.Z.~Henrique Santos]{Henrique Pinto dos Santos Zaidan}
+
+\address{Postgraduate Program in Biometrics and Applied Statistics\\
+Federal Rural University of Pernambuco\\
+Recife/PE, Brazil}
+
+\begin{abstract}
+< Colocar o abstract/resumo aqui. >\\
+\\
+\textsc{Keywords}:
+Palavra-chave-1; palavra-chave-2; palavra-chave-3; palavra-chave-4
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{S:intro}
+
+< ... TEXTO DO ARTIGO ...> 
+
+\section*{Agradecimentos}
+
+\noindent Agradeço a meu gentil e amável professor. Agradeço também ao glorioso Sport Club do Recife por me fornecer inspiração. 
+
+OI meu
+
+
+$\sinal$
+
+
+\bibliographystyle{abbrvnat}
+\bibliography{nome-do-seu-arquivo-bibtex-sem-a-extensao} % e.g., \bibliography{cribari_01} 
+
+\end{document}
