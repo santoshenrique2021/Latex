@@ -1,0 +1,110 @@
+\documentclass{beamer} % O pacote beamer é para fazer apresentação
+\usepackage[utf8]{inputenc}%O pacote inputenc permite a codificação de caracter especiais
+\usepackage[american]{babel}% O pacote babel é relacionado a idiomas
+\usepackage{amssymb}% Símbolos Matemáticos
+\usepackage{mathtools}% Símbolos Matemáticos
+\usetheme{Singapore}% Permite mudar o tema e as cores dos slides (design) 
+\setbeamertemplate{caption}[numbered]
+
+\begin{document}
+ \title[Projeto de Métodos Computacionais em Estatística]{Project}
+ \author{Henrique Santos\\ santos.henrique624@gmail.com}
+ \date{\today}
+
+
+ \begin{frame}
+\titlepage
+\end{frame}
+
+
+\section{Highlights} %nesta seção colocar 3 frases para enfatizar a apresentação, enfatizando o escopo do trabalho
+\begin{frame}
+    \frametitle{Highlights}
+    
+    \begin{enumerate}
+     \item Frase 1. %colocar a primeira frase de destaque
+     \item Frase 2. %colocar a segunda frase de destaque
+     \item Frase 3. %colocar a terceira frase de destaque
+    \end{enumerate}
+    
+\end{frame}
+
+
+
+\section{Introduction} %Apresentar o problema de pesquisa de maneira geral
+\begin{frame}
+\frametitle{Introduction}
+
+
+\end{frame}
+
+
+\begin{frame}%Apresentar a justificativa e o objetivo
+\frametitle{Introduction}
+
+\textbf{Motivation} $\Longrightarrow$ 
+
+\bigskip%
+
+\textbf{Objectives:} 
+
+    \begin{itemize}
+     \item Frase 1. %Objetivo 1 do projeto
+     \item Frase 2. %Objetivo 2 do projeto
+    \end{itemize}
+
+
+\end{frame}
+
+
+\section{Model Formulation}%Apresentar o modelo
+\begin{frame}
+\frametitle{Model Formulation}
+
+
+\end{frame}
+
+
+
+\section{Pseudocode}%Apresentar o pseudocódigo
+\begin{frame}
+\frametitle{Pseudocode}
+
+
+\end{frame}
+
+
+
+
+\section{Code} %Explicar o código
+\begin{frame}[fragile]
+\frametitle{Code}%vai usar o begin verbatim
+
+
+
+\end{frame}
+
+
+
+
+\section{Numerical Example} %Apresentar um exemplo numérico
+\begin{frame}
+\frametitle{Numerical Example}
+\begin{example} %Colocar os inputs do exemplo numérico
+
+
+\textbf{Result}:
+\end{example}
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}
+\frametitle{Conclusion} %Escrever a conclusão
+
+
+\end{frame}
+
+
+
+
+\end{document}
